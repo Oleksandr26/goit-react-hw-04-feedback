@@ -1,0 +1,28 @@
+.feedback{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+}
+
+.buttonsList{
+    display: flex;
+    justify-content: space-evenly;
+    margin: 15px 0;
+}
+
+/* .buttonsItem{
+    padding: 10px;
+} */
+
+.button{
+    padding: 5px;
+    width: 70px;
+    border-radius: 10px;
+    border-color: transparent
+}
+
+.button:hover{
+    background-color: seagreen;
+    color: white;
+}
